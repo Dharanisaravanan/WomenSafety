@@ -121,7 +121,7 @@ public class ViewContactDB extends ActionBarActivity implements View.OnClickList
                 tr.addView(c2);
 
 
-
+/*
            for (String a : set) {
 
                 if (count == 0) {
@@ -141,7 +141,7 @@ public class ViewContactDB extends ActionBarActivity implements View.OnClickList
                 }
 
 
-            } 
+            } */
 
             t.addView(tr, new TableLayout.LayoutParams(
                     TableLayout.LayoutParams.MATCH_PARENT,
