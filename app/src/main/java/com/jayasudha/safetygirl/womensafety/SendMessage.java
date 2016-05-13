@@ -83,6 +83,7 @@ public class SendMessage extends ActionBarActivity {
             try {
                 //  Toast.makeText("hii",Toast.LENGTH_LONG);
                 String msg = "I am in danger.. Please help me soon" + result;
+                String msg = "Your Location is - \nLat: " + latitude + "\nLong: " + longitude, Toast.LENGTH_LONG).show();
                 SmsManager smsManager = SmsManager.getDefault();
                 smsManager.sendTextMessage(n, null, msg, null, null);
                 Toast.makeText(getApplicationContext(), "SMS sent.",
